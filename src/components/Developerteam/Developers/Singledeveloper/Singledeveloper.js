@@ -19,9 +19,9 @@ const Singledeveloper = ({ developer, handleHire }) => {
             <h6>country:  <span className="fw-bold">{developer.country}</span></h6>
 
             <div className="sociallinks">
-              <a href target="_blank" rel="noreferrer" className="me-4"><i className="fab fa-github text-secondary"></i></a>
-              <a href target="_blank" rel="noreferrer" className="me-4"><i className="fab fa-twitter text-secondary"></i></a>
-              <a href target="_blank" rel="noreferrer"><i className="fab fa-linkedin text-secondary"></i></a>
+              <i className="fab fa-github text-secondary"></i>
+              <i className="fab fa-twitter text-secondary"></i>
+              <i className="fab fa-linkedin text-secondary"></i>
             </div>
 
             <button onClick={() => handleHire && handleHire(developer)} className="btn btn-success text- px-3 px-lg-4 fw-bold"><i className="fas fa-code me-1"></i>Hire Developer</button>
